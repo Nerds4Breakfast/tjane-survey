@@ -1,0 +1,16 @@
+:root {
+    --primary-color: rgb(251,178,109);
+    --secondary-color: rgb(245, 125, 98);
+    --highlight-color: rgb(225, 91, 100);
+    --background-primary: rgb(171, 189, 131);
+    --background-secondary: rgb(132, 155, 135);
+}
+head, body{
+    background-color: var(--background-primary);
+}
+.container {
+    background-color: var(--primary-color);
+    border-color: var(--highlight-color);
+    max-width: 720px;
+    margin: 0 auto;
+}
